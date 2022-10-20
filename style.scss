@@ -23,19 +23,25 @@ h2 {
     @extend .exercise;
     @extend .exercise-title;
     padding: f.rem(16);
+    text-decoration: none;
 }
 
 div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     padding: f.rem(16);
+    
 }
 
 section {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: f.rem(8);
 }
 
 p {
@@ -54,28 +60,41 @@ article:nth-child(3) {
     @include article-card(v.$color-third);
 }
 
-
 article:only-child {
     @include article-card(v.$color-tertiary, v.$color-third, f.rem(24));
-    margin-top: f.rem(16);
+    width: 100%;
 }
 
-@for $var from 1 to 20 { 
-    .fs-#{$var}rem {
-        background-color: darken(white, $var * 5%);
-        color: lighten(black, $var * 5%);
-        font-size: f.rem(16*$var);
-    }
-    
-    
-    @if $var == 10 {
-         //color: v.$color-primary;
+@mixin numbering{
+    @for $var from 1 to 20 { 
+        &:nth-child(#{$var}) {
+            background-color: darken(white, $var * 5%);
+            color: lighten(black, $var * 5%);
+            @extend .exercise;
+            display: block;
+            width: f.rem(44);
+            height: f.rem(44);
+            padding: f.rem(0);
+        }
+        
+        @if $var == 10 {
+            &:nth-child(#{$var}) {
+                color: v.$color-primary;
+                background-color: v.$color-third;
+            }
+        }
     }
 }
 
-/*
-.numbers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}*/
+.numbers div {
+    @include numbering;
+}
+
+
+$nums : 1, 2, 3;
+
+@each $i in $nums {
+    .fs-#{$i}rem {
+        font-size: f.rem(16*$i);
+    }
+}
