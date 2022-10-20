@@ -1,4 +1,4 @@
-.exercise, article:only-child, article:nth-child(3), article:nth-child(1), article, h2 {
+.exercise, .numbers div:nth-child(19), .numbers div:nth-child(18), .numbers div:nth-child(17), .numbers div:nth-child(16), .numbers div:nth-child(15), .numbers div:nth-child(14), .numbers div:nth-child(13), .numbers div:nth-child(12), .numbers div:nth-child(11), .numbers div:nth-child(10), .numbers div:nth-child(9), .numbers div:nth-child(8), .numbers div:nth-child(7), .numbers div:nth-child(6), .numbers div:nth-child(5), .numbers div:nth-child(4), .numbers div:nth-child(3), .numbers div:nth-child(2), .numbers div:nth-child(1), article:only-child, article:nth-child(3), article:nth-child(1), article, h2 {
   border: 0.00390625rem solid red;
 }
 .exercise-title, h2 {
@@ -8,19 +8,24 @@
 
 h2 {
   padding: 1rem;
+  text-decoration: none;
 }
 
 div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   padding: 1rem;
 }
 
 section {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.5rem;
 }
 
 p {
@@ -53,128 +58,280 @@ article:only-child {
   border-color: blue;
   font-size: 1.5rem;
   padding: 1rem;
-  margin-top: 1rem;
+  width: 100%;
 }
 
-.fs-1rem {
+.numbers div {
+  /*
+  .fs-1rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-2rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-3rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-4rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-5rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-6rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-7rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-8rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-9rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-10rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-11rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-12rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-13rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-14rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-15rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-16rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-17rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-18rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+  /*
+  .fs-19rem {
+
+      font-size: f.rem(16*$var);
+  }
+  */
+}
+.numbers div:nth-child(1) {
   background-color: #f2f2f2;
   color: #0d0d0d;
-  font-size: 1rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-2rem {
+.numbers div:nth-child(2) {
   background-color: #e6e6e6;
   color: #1a1a1a;
-  font-size: 2rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-3rem {
+.numbers div:nth-child(3) {
   background-color: #d9d9d9;
   color: #262626;
-  font-size: 3rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-4rem {
+.numbers div:nth-child(4) {
   background-color: #cccccc;
   color: #333333;
-  font-size: 4rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-5rem {
+.numbers div:nth-child(5) {
   background-color: #bfbfbf;
   color: #404040;
-  font-size: 5rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-6rem {
+.numbers div:nth-child(6) {
   background-color: #b3b3b3;
   color: #4d4d4d;
-  font-size: 6rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-7rem {
+.numbers div:nth-child(7) {
   background-color: #a6a6a6;
   color: #595959;
-  font-size: 7rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-8rem {
+.numbers div:nth-child(8) {
   background-color: #999999;
   color: #666666;
-  font-size: 8rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-9rem {
+.numbers div:nth-child(9) {
   background-color: #8c8c8c;
   color: #737373;
-  font-size: 9rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-10rem {
+.numbers div:nth-child(10) {
   background-color: gray;
   color: gray;
-  font-size: 10rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-11rem {
+.numbers div:nth-child(10) {
+  color: red;
+  background-color: blue;
+}
+.numbers div:nth-child(11) {
   background-color: #737373;
   color: #8c8c8c;
-  font-size: 11rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-12rem {
+.numbers div:nth-child(12) {
   background-color: #666666;
   color: #999999;
-  font-size: 12rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-13rem {
+.numbers div:nth-child(13) {
   background-color: #595959;
   color: #a6a6a6;
-  font-size: 13rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-14rem {
+.numbers div:nth-child(14) {
   background-color: #4d4d4d;
   color: #b3b3b3;
-  font-size: 14rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-15rem {
+.numbers div:nth-child(15) {
   background-color: #404040;
   color: #bfbfbf;
-  font-size: 15rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-16rem {
+.numbers div:nth-child(16) {
   background-color: #333333;
   color: #cccccc;
-  font-size: 16rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-17rem {
+.numbers div:nth-child(17) {
   background-color: #262626;
   color: #d9d9d9;
-  font-size: 17rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-18rem {
+.numbers div:nth-child(18) {
   background-color: #1a1a1a;
   color: #e6e6e6;
-  font-size: 18rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-.fs-19rem {
+.numbers div:nth-child(19) {
   background-color: #0d0d0d;
   color: #f2f2f2;
-  font-size: 19rem;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0rem;
 }
-
-/*
-.numbers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}*/
 
 /*# sourceMappingURL=style.css.map */
