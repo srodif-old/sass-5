@@ -1,0 +1,180 @@
+.exercise, article:only-child, article:nth-child(3), article:nth-child(1), article, h2 {
+  border: 0.00390625rem solid red;
+}
+.exercise-title, h2 {
+  color: green;
+  text-decoration: underline;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+p {
+  text-align: center;
+}
+
+article {
+  color: red;
+  border-color: green;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+article:nth-child(1) {
+  color: blue;
+  border-color: green;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+article:nth-child(3) {
+  color: blue;
+  border-color: green;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+article:only-child {
+  color: green;
+  border-color: blue;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.fs-1rem {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+  font-size: 1rem;
+}
+
+.fs-2rem {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+  font-size: 2rem;
+}
+
+.fs-3rem {
+  background-color: #d9d9d9;
+  color: #262626;
+  font-size: 3rem;
+}
+
+.fs-4rem {
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 4rem;
+}
+
+.fs-5rem {
+  background-color: #bfbfbf;
+  color: #404040;
+  font-size: 5rem;
+}
+
+.fs-6rem {
+  background-color: #b3b3b3;
+  color: #4d4d4d;
+  font-size: 6rem;
+}
+
+.fs-7rem {
+  background-color: #a6a6a6;
+  color: #595959;
+  font-size: 7rem;
+}
+
+.fs-8rem {
+  background-color: #999999;
+  color: #666666;
+  font-size: 8rem;
+}
+
+.fs-9rem {
+  background-color: #8c8c8c;
+  color: #737373;
+  font-size: 9rem;
+}
+
+.fs-10rem {
+  background-color: gray;
+  color: gray;
+  font-size: 10rem;
+}
+
+.fs-11rem {
+  background-color: #737373;
+  color: #8c8c8c;
+  font-size: 11rem;
+}
+
+.fs-12rem {
+  background-color: #666666;
+  color: #999999;
+  font-size: 12rem;
+}
+
+.fs-13rem {
+  background-color: #595959;
+  color: #a6a6a6;
+  font-size: 13rem;
+}
+
+.fs-14rem {
+  background-color: #4d4d4d;
+  color: #b3b3b3;
+  font-size: 14rem;
+}
+
+.fs-15rem {
+  background-color: #404040;
+  color: #bfbfbf;
+  font-size: 15rem;
+}
+
+.fs-16rem {
+  background-color: #333333;
+  color: #cccccc;
+  font-size: 16rem;
+}
+
+.fs-17rem {
+  background-color: #262626;
+  color: #d9d9d9;
+  font-size: 17rem;
+}
+
+.fs-18rem {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+  font-size: 18rem;
+}
+
+.fs-19rem {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  font-size: 19rem;
+}
+
+/*
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}*/
+
+/*# sourceMappingURL=style.css.map */
