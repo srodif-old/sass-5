@@ -61,122 +61,6 @@ article:only-child {
   width: 100%;
 }
 
-.numbers div {
-  /*
-  .fs-1rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-2rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-3rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-4rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-5rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-6rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-7rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-8rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-9rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-10rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-11rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-12rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-13rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-14rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-15rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-16rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-17rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-18rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-  /*
-  .fs-19rem {
-
-      font-size: f.rem(16*$var);
-  }
-  */
-}
 .numbers div:nth-child(1) {
   background-color: #f2f2f2;
   color: #0d0d0d;
@@ -332,6 +216,18 @@ article:only-child {
   width: 2.75rem;
   height: 2.75rem;
   padding: 0rem;
+}
+
+.fs-1rem {
+  font-size: 1rem;
+}
+
+.fs-2rem {
+  font-size: 2rem;
+}
+
+.fs-3rem {
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -60,7 +60,6 @@ article:nth-child(3) {
     @include article-card(v.$color-third);
 }
 
-
 article:only-child {
     @include article-card(v.$color-tertiary, v.$color-third, f.rem(24));
     width: 100%;
@@ -78,26 +77,24 @@ article:only-child {
             padding: f.rem(0);
         }
         
-        
-        /*
-        .fs-#{$var}rem {
-            
-            font-size: f.rem(16*$var);
-        }
-        */
-        
         @if $var == 10 {
             &:nth-child(#{$var}) {
                 color: v.$color-primary;
                 background-color: v.$color-third;
             }
-          
         }
-        
     }
 }
 
 .numbers div {
     @include numbering;
+}
 
+
+$nums : 1, 2, 3;
+
+@each $i in $nums {
+    .fs-#{$i}rem {
+        font-size: f.rem(16*$i);
+    }
 }
